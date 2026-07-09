@@ -61,7 +61,7 @@ typingEffect();
 // LOAD SKILLS
 // ======================================
 
-fetch("http://localhost:5000/api/skills")
+fetch("https://portfolioproject-production-120d.up.railway.app/api/skills")
 .then(res => res.json())
 .then(data => {
 
@@ -92,7 +92,7 @@ fetch("http://localhost:5000/api/skills")
 // LOAD PROJECTS
 // ======================================
 
-fetch("http://localhost:5000/api/projects")
+fetch("https://portfolioproject-production-120d.up.railway.app/api/projects")
 .then(res => res.json())
 .then(data => {
 
@@ -158,7 +158,7 @@ Live Demo
 // SKILL COUNTER
 // ======================================
 
-fetch("http://localhost:5000/api/skills")
+fetch("https://portfolioproject-production-120d.up.railway.app/api/skills")
 .then(res => res.json())
 .then(data => {
 
@@ -228,7 +228,7 @@ return;
 
 try {  
 
-const response = await fetch("http://localhost:5000/api/contacts", {
+const response = await fetch("https://portfolioproject-production-120d.up.railway.app/api/contacts", {
 
 method: "POST",
 
