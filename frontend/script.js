@@ -447,7 +447,7 @@ footer.innerHTML = `© ${year} Nethra R | All Rights Reserved`;
 
 // ======================================
 // END OF SCRIPT
-// ======================================
+// ====================================
 
 console.log("Portfolio Loaded Successfully 🚀");
 
