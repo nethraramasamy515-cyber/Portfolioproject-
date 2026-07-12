@@ -921,12 +921,14 @@ body {
     width: 380px;
     height: 380px;
     border-radius: 50%;
-    background: linear-gradient(45deg,
-        #38bdf8,
-        #2563eb,
-        #7c3aed,
-        #38bdf8);
-    animation: rotateRing 8s linear infinite;
+    background: linear-gradient(
+    45deg,
+    #2180a9,
+    #072e83,
+    #6835df,
+    #9d0451
+);
+animation: rotateRing 8s linear infinite;
     z-index: -1;
     filter: blur(10px);
 }
@@ -938,3 +940,5 @@ body {
         transform: rotate(360deg);
     }
 }
+
+
